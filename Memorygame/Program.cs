@@ -10,6 +10,10 @@ namespace Memorygame
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
+            Console.WriteLine("dit is een test");
+            Console.ReadLine();
         }
+        
     }
 }

@@ -10,8 +10,9 @@ namespace Memorygame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello People");
             Console.WriteLine("dit is een test");
+            Console.WriteLine("Test");
             Console.ReadLine();
         }
         

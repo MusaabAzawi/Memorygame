@@ -12,6 +12,7 @@ namespace Memorygame
         {
             Console.WriteLine("Hello People");
             Console.WriteLine("dit is een test");
+            Console.WriteLine("Test");
             Console.ReadLine();
         }
         

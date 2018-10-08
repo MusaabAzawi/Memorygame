@@ -14,6 +14,7 @@ namespace Memorygame
             Console.WriteLine("dit is een test");
             Console.WriteLine("Test");
             Console.WriteLine("test nummer 8349732");
+            Console.WriteLine("Hallo???????");
             Console.ReadLine();
         }
         

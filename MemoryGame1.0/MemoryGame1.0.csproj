@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -55,6 +56,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Page Include="GameScherm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InstructieScherm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -62,6 +76,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameScherm.xaml.cs">
+      <DependentUpon>GameScherm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InstructieScherm.xaml.cs">
+      <DependentUpon>InstructieScherm.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -86,6 +106,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -93,6 +117,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\achterkant kaartjes.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic10.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic11.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic12.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic13.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic14.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic15.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic16.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic17.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic18.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

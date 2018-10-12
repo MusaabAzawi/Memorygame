@@ -97,7 +97,7 @@
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/pic5.PNG"/>
             </Button.Background>
         </Button>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="584,25,0,0" TextWrapping="Wrap" Text="Naam Speler 1" VerticalAlignment="Top" Width="206"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="584,53,0,0" TextWrapping="Wrap" Text="Naam Speler 2" VerticalAlignment="Top" Width="206"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="507,25,0,0" TextWrapping="Wrap" Text="Naam Speler 1" VerticalAlignment="Top" Width="283"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="534,53,0,0" TextWrapping="Wrap" Text="Naam Speler 2" VerticalAlignment="Top" Width="256"/>
     </Grid>
 </UserControl>

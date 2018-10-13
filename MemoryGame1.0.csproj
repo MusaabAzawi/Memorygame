@@ -38,6 +38,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -60,6 +61,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Afbeelding.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Matchinggame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Matchinggame.Designer.cs">
+      <DependentUpon>Matchinggame.cs</DependentUpon>
     </Compile>
     <Compile Include="SpeelScherm.xaml.cs">
       <DependentUpon>SpeelScherm.xaml</DependentUpon>
@@ -105,6 +112,10 @@
     <EmbeddedResource Include="Afbeelding.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Afbeelding.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matchinggame.resx">
+      <DependentUpon>Matchinggame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -119,7 +130,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\achterkant kaartjes.PNG" />
+    <None Include="Resources\achterkantkaartjes.PNG" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pic1.PNG" />

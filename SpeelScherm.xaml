@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:MemoryGame1._0"
         mc:Ignorable="d"
         Title="SpeelScherm" Height="550" Width="800">
-    <Grid>
+    <Grid x:Name="SpeelScherm1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="28*"/>
+            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="156*"/>
+            <ColumnDefinition Width="134*"/>
+            <ColumnDefinition Width="25*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <RadialGradientBrush>
                 <GradientStop Color="Black" Offset="0"/>
@@ -16,88 +23,88 @@
                 <GradientStop Color="#FEFFFFFF" Offset="0.098"/>
             </RadialGradientBrush>
         </Grid.Background>
-        <Button x:Name="card1" HorizontalAlignment="Left" Margin="50,25,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card1" HorizontalAlignment="Stretch" Margin="-6,25,12,0" VerticalAlignment="Top" Width="Auto" Height="100" Grid.Column="1">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic1.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card5" HorizontalAlignment="Left" Margin="50,130,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card5" HorizontalAlignment="Stretch" Margin="-6,130,12,0" VerticalAlignment="Top" Width="Auto" Height="100" Grid.Column="1">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic3.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card16" HorizontalAlignment="Left" Margin="365,340,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card16" HorizontalAlignment="Left" Margin="203,340,0,0" VerticalAlignment="Top" Width="100" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic8.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card15" HorizontalAlignment="Left" Margin="260,340,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card15" HorizontalAlignment="Stretch" Margin="98,340,114,0" VerticalAlignment="Top" Width="Auto" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic8.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card14" HorizontalAlignment="Left" Margin="155,340,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card14" HorizontalAlignment="Left" Margin="-7,340,0,0" VerticalAlignment="Top" Width="100" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic7.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card12" HorizontalAlignment="Left" Margin="365,235,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card12" HorizontalAlignment="Left" Margin="203,235,0,0" VerticalAlignment="Top" Width="100" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic6.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card11" HorizontalAlignment="Left" Margin="260,235,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card11" HorizontalAlignment="Stretch" Margin="98,235,114,0" VerticalAlignment="Top" Width="Auto" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic6.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card10" HorizontalAlignment="Left" Margin="155,235,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card10" HorizontalAlignment="Left" Margin="-7,235,0,0" VerticalAlignment="Top" Width="100" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic5.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card8" HorizontalAlignment="Left" Margin="365,130,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card8" HorizontalAlignment="Left" Margin="203,130,0,0" VerticalAlignment="Top" Width="100" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic4.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card7" HorizontalAlignment="Left" Margin="260,130,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card7" HorizontalAlignment="Stretch" Margin="98,130,114,0" VerticalAlignment="Top" Width="Auto" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic4.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card4" HorizontalAlignment="Left" Margin="365,25,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card4" HorizontalAlignment="Left" Margin="203,25,0,0" VerticalAlignment="Top" Width="100" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic2.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card3" HorizontalAlignment="Left" Margin="260,25,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card3" HorizontalAlignment="Stretch" Margin="98,25,114,0" VerticalAlignment="Top" Width="Auto" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic2.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card6" HorizontalAlignment="Left" Margin="155,130,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card6" HorizontalAlignment="Left" Margin="-7,130,0,0" VerticalAlignment="Top" Width="100" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic3.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card2" HorizontalAlignment="Left" Margin="155,25,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card2" HorizontalAlignment="Left" Margin="-7,25,0,0" VerticalAlignment="Top" Width="100" Height="100" Grid.Column="2">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic1.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card13" HorizontalAlignment="Left" Margin="50,340,0,0" VerticalAlignment="Top" Width="100" Height="100">
+        <Button x:Name="card13" HorizontalAlignment="Stretch" Margin="-6,340,12,0" VerticalAlignment="Top" Width="Auto" Height="100" Grid.Column="1">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic7.PNG" Stretch="Fill"/>
             </DockPanel>
         </Button>
-        <Button x:Name="card9" HorizontalAlignment="Left" Margin="50,235,0,0" VerticalAlignment="Top" Width="100" Height="100">
-            <DockPanel>
-                <Image Source="C:\Temp\Memorygame\Resources\pic5.PNG" Stretch="Fill"/>
-            </DockPanel>
-        </Button>
-        <Button x:Name="btnhmenu" Content="Hoofdmenu" HorizontalAlignment="Left" Margin="498,478,0,0" VerticalAlignment="Top" Width="286" Height="39" Background="#FFFF93F8"/>
-        <Button x:Name="btnhscore" Content="Hoofdscore" HorizontalAlignment="Left" Margin="498,434,0,0" VerticalAlignment="Top" Width="286" Height="39" Background="#FFFF65F5"/>
-        <Button x:Name="btnhspel" Content="Herstart Spel" HorizontalAlignment="Left" Margin="498,390,0,0" VerticalAlignment="Top" Width="286" Height="39" Background="#FFFF2EF1"/>
+        <Button x:Name="card9" Margin="-6,235,12,0" VerticalAlignment="Top" Height="100" Grid.Column="1"/>
+        <Button x:Name="btnhmenu" Content="Hoofdmenu" HorizontalAlignment="Left" Margin="24,478,0,0" VerticalAlignment="Top" Width="286" Height="39" Background="#FFFF93F8" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnhscore" Content="Hoofdscore" HorizontalAlignment="Left" Margin="24,434,0,0" VerticalAlignment="Top" Width="286" Height="39" Background="#FFFF65F5" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnhspel" Content="Herstart Spel" HorizontalAlignment="Left" Margin="24,390,0,0" VerticalAlignment="Top" Width="286" Height="39" Background="#FFFF2EF1" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnhspel_Copy" Content="Start" HorizontalAlignment="Left" Margin="22,340,0,0" VerticalAlignment="Top" Width="286" Height="39" Background="#FFFF2EF1" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Label x:Name="Score" Content="Score:" HorizontalAlignment="Left" Margin="53,25,0,0" VerticalAlignment="Top" Height="28" Width="58" FontFamily="Segoe UI Black" FontSize="14" Grid.Column="3"/>
+        <Label x:Name="ScoreCounter" Content="0" Margin="116,25,93.658,0" VerticalAlignment="Top" Height="28" FontFamily="Segoe UI Black" FontSize="14" Grid.Column="3"/>
+        <Label x:Name="Time" Content="Time" Grid.Column="3" HorizontalAlignment="Left" Margin="53,99,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.64,0.605"/>
     </Grid>
 </Window>

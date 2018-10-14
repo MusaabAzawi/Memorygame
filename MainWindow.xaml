@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="550" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
         <Grid.Background>
             <RadialGradientBrush>
@@ -20,22 +24,22 @@
         <Grid.Effect>
             <DropShadowEffect/>
         </Grid.Effect>
-        <Button x:Name="knopstartspel" Content="Start Spel" HorizontalAlignment="Left" Margin="261,132,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1" Click="OpenWindow">
+        <Button x:Name="knopstartspel" Content="Start Spel" HorizontalAlignment="Left" Margin="261,132,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1" Click="OpenWindow" Grid.ColumnSpan="2">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button Content="Herstart Spel" HorizontalAlignment="Left" Margin="261,214,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1">
+        <Button Content="Herstart Spel" HorizontalAlignment="Left" Margin="261,214,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1" Grid.ColumnSpan="2">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="6"/>
             </Button.Effect>
         </Button>
-        <Button Content="Instructies" HorizontalAlignment="Left" Margin="261,285,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1">
+        <Button Content="Instructies" HorizontalAlignment="Left" Margin="261,285,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1" Grid.ColumnSpan="2">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button Content="Start" HorizontalAlignment="Left" Margin="261,0,0,108" VerticalAlignment="Bottom" Width="280" Height="49" Background="#FFFF2EF1" Click="StartGame">
+        <Button Content="Start Game" HorizontalAlignment="Left" Margin="261,0,0,108" VerticalAlignment="Bottom" Width="280" Height="49" Background="#FFFF2EF1" Click="StartGame" Grid.ColumnSpan="2">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>

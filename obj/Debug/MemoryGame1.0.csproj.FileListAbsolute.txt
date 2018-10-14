@@ -72,3 +72,9 @@ C:\Users\Musaab\Memorygame\obj\Debug\SpeelScherm.baml
 C:\Users\Musaab\Memorygame\obj\Debug\MemoryGame1.0.g.resources
 C:\Users\Musaab\Memorygame\obj\Debug\MemoryGame1._0.Properties.Resources.resources
 C:\Users\Musaab\Memorygame\obj\Debug\MemoryGame1.0.csproj.GenerateResource.cache
+C:\Users\Musaab\Memorygame\bin\Debug\MemoryGame1.0.exe.config
+C:\Users\Musaab\Memorygame\bin\Debug\MemoryGame1.0.exe
+C:\Users\Musaab\Memorygame\bin\Debug\MemoryGame1.0.pdb
+C:\Users\Musaab\Memorygame\obj\Debug\MemoryGame1._0.Afbeelding.resources
+C:\Users\Musaab\Memorygame\obj\Debug\MemoryGame1._0.Matchinggame.resources
+C:\Users\Musaab\Memorygame\obj\Debug\MemoryGame1.0.csproj.CoreCompileInputs.cache

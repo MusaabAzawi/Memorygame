@@ -51,6 +51,7 @@ namespace MemoryGame1._0
                     Afbeelding.pic8,
                     Afbeelding.pic7,
                     Afbeelding.pic9,
+                   
 
                 };
             }

@@ -39,11 +39,6 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button Content="Start Game" HorizontalAlignment="Left" Margin="261,0,0,108" VerticalAlignment="Bottom" Width="280" Height="49" Background="#FFFF2EF1" Click="StartGame" Grid.ColumnSpan="2">
-            <Button.Effect>
-                <DropShadowEffect/>
-            </Button.Effect>
-        </Button>
 
     </Grid>
 </Window>

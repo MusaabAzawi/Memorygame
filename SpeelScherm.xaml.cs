@@ -10,27 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MemoryGame1._0
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for SpeelScherm.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SpeelScherm : Window
     {
-        public MainWindow()
+        public SpeelScherm()
         {
+
             InitializeComponent();
         }
-
-        private void OpenWindow(object sender, RoutedEventArgs e)
-        {
-            SpeelScherm objSpeelScherm = new SpeelScherm();
-            this.Visibility = Visibility.Hidden;
-            objSpeelScherm.Show();
-        }
-
     }
 }

@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MemoryGame1._0"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="550" Width="800">
     <Grid>
+
         <Grid.Background>
             <RadialGradientBrush>
                 <GradientStop Color="Black" Offset="0"/>
@@ -19,17 +20,17 @@
         <Grid.Effect>
             <DropShadowEffect/>
         </Grid.Effect>
-        <Button Content="Start Spel" HorizontalAlignment="Left" Margin="243,108,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1">
+        <Button x:Name="knopstartspel" Content="Start Spel" HorizontalAlignment="Left" Margin="243,162,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1" Click="OpenWindow">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button Content="Herstart Spel" HorizontalAlignment="Left" Margin="243,180,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1">
+        <Button Content="Herstart Spel" HorizontalAlignment="Left" Margin="243,234,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1">
             <Button.Effect>
-                <DropShadowEffect/>
+                <DropShadowEffect BlurRadius="6"/>
             </Button.Effect>
         </Button>
-        <Button Content="Instructies" HorizontalAlignment="Left" Margin="243,252,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1" Grid.RowSpan="10">
+        <Button Content="Instructies" HorizontalAlignment="Left" Margin="243,305,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>

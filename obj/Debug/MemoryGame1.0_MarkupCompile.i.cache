@@ -4,17 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\arnou\Memorygame\obj\Debug\
+=======
+C:\Temp\Memorygame\obj\Debug\
+>>>>>>> aa27b57727dabf7ab02bc6accef6148d45af658c
 MemoryGame1._0
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\arnou\Memorygame\App.xaml
 3632667671
 
 122060883074
+=======
+C:\Temp\Memorygame\App.xaml
+3-7269305
+
+121933308514
+>>>>>>> aa27b57727dabf7ab02bc6accef6148d45af658c
 14434534373
-GameScherm.xaml;InstructieScherm.xaml;MainWindow.xaml;
+InstructieScherm.xaml;MainWindow.xaml;SpeelScherm.xaml;
 
 False
 

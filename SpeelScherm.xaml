@@ -23,7 +23,7 @@
                 <GradientStop Color="#FEFFFFFF" Offset="0.098"/>
             </RadialGradientBrush>
         </Grid.Background>
-        <Button x:Name="card1" HorizontalAlignment="Stretch" Margin="-6,25,12,0" VerticalAlignment="Top" Width="Auto" Height="100" Grid.Column="1">
+        <Button x:Name="card1" HorizontalAlignment="Stretch" Margin="-5,25,11,0" VerticalAlignment="Top" Width="auto" Height="100" Grid.Column="1">
             <DockPanel>
                 <Image Source="C:\Temp\Memorygame\Resources\pic1.PNG" Stretch="Fill"/>
             </DockPanel>

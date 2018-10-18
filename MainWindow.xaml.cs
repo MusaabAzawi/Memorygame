@@ -27,16 +27,16 @@ namespace MemoryGame1._0
 
         private void OpenWindow(object sender, RoutedEventArgs e)
         {
-          //  SpeelScherm objSpeelScherm = new SpeelScherm();
-          //  this.Visibility = Visibility.Hidden;
-          //  objSpeelScherm.Show();
+           SpeelScherm objSpeelScherm = new SpeelScherm();
+           this.Visibility = Visibility.Hidden;
+           objSpeelScherm.Show();
         }
 
-        private void StartGame(object sender, RoutedEventArgs e)
+        private void StartSpel(object sender, RoutedEventArgs e)
         {
-            Matchinggame matchinggame = new Matchinggame();
+            Form1 form1 = new Form1();
             this.Visibility = Visibility.Hidden;
-            matchinggame.Show();
+            form1.Show();
         }
     }
 }

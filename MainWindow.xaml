@@ -24,7 +24,7 @@
         <Grid.Effect>
             <DropShadowEffect/>
         </Grid.Effect>
-        <Button x:Name="knopstartspel" Content="Start Spel" HorizontalAlignment="Left" Margin="261,132,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1" Click="OpenWindow" Grid.ColumnSpan="2">
+        <Button x:Name="knopstartspel" Content="Start Spel" HorizontalAlignment="Left" Margin="257,132,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1" Click="OpenWindow" Grid.ColumnSpan="2">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
@@ -35,6 +35,11 @@
             </Button.Effect>
         </Button>
         <Button Content="Instructies" HorizontalAlignment="Left" Margin="261,285,0,0" VerticalAlignment="Top" Width="280" Height="49" Background="#FFFF2EF1" Grid.ColumnSpan="2">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="Form1" Content="Form 1" HorizontalAlignment="Left" Margin="261,0,0,118" VerticalAlignment="Bottom" Width="280" Height="49" Background="#FFFF2EF1" Click="StartSpel" Grid.ColumnSpan="2">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>

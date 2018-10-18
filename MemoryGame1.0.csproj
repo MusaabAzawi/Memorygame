@@ -63,6 +63,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="SpeelScherm.xaml.cs">
       <DependentUpon>SpeelScherm.xaml</DependentUpon>
     </Compile>
@@ -179,5 +180,6 @@
   <ItemGroup>
     <None Include="Resources\pic18.PNG" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
